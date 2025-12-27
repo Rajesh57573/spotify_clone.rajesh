@@ -2,8 +2,8 @@
 
 :root {
   --a: 0;
-  --nav-height: 7vh;
-  --footer-height: 10vh;
+  --nav-height: 62px;
+  --footer-height: 72px;
 }
 
 *{
@@ -29,8 +29,7 @@ body {
   display: flex;
   height: var(--nav-height);
   top: 0;
-  left: 0;
-  right: 0;
+  width: 100%;
   position: fixed;
   z-index: 1000;
 }
@@ -185,25 +184,23 @@ body {
 
 .container {
   display: flex;
-  min-height: calc(100vh - (var(--nav-height) + var(--footer-height)));
+  height: calc(100vh - var(--nav-height) - var(--footer-height));
   box-sizing: border-box;
-  
-  padding: 8px;
-  position: relative;
-  z-index: 1;
-  overflow: hidden;
 }
 
 .left {
   width: 25vw;
-  height: 81vh;
+  height: calc(100vh - var(--nav-height) - var(--footer-height) - 16px);
   margin: 8px 8px 0 8px;
   background-color: #121212;
   border-radius: 8px;
+  overflow: hidden;
 }
 
 .library {
-  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .lib-heading1 {
@@ -265,7 +262,7 @@ body {
 }
 
 .songList ul {
-  max-height: 420px;
+  min-height: 420px;
   padding: 0 8px;
 }
 
@@ -339,10 +336,8 @@ body {
 .play i:hover { color: gainsboro; }
 
 .footer-left {
-  height: 10vh;
-  padding-left: 20px;
-  padding-right: 8px;
-  margin-top: 0;
+  padding: 18px 0 0 14px;
+  margin-top: 16px;
 }
 
 .footer-left-text {
@@ -361,7 +356,7 @@ body {
 
 .right {
   width: 75vw;
-  height: 81vh;
+  height: calc(100vh - var(--nav-height) - var(--footer-height) - 16px);
   margin: 8px 8px 0 8px;
   border-radius: 8px;
   background-color: #121212;
@@ -649,10 +644,10 @@ body {
 .music-player {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   position: fixed;
   height: var(--footer-height);
-  left: 0;
-  right: 0;
+  width: 100%;
   bottom: 0;
   z-index: 1001;
   background: #000;
@@ -669,7 +664,7 @@ body {
 .album-img {
   height: 100%;
   width: 80px;
-  margin: 18px 0 0 16px;
+  margin: 6px 0 0 8px;
 }
 
 .album-img img {
@@ -724,13 +719,13 @@ body {
 .playbar {
   width: 40vw;
   height: 100%;
-  margin-top: 15px;
+  margin-top: 12px;
 }
 
 .iconbar {
   display: flex;
   justify-content: center;
-  margin-top: 8px;
+  margin-top: 6px;
   margin-left: 20px;
   gap: 20px;
 }
@@ -759,16 +754,13 @@ body {
   margin-top: 4px;
 }
 
-.songbar span  {
-  margin-top: 4px;
-  margin-left: 8px;
-}
+.songbar span  { margin-left: 8px; }
 
 .seekbar {
   position: relative;
   width: 80%;
   height: 4px;
-  margin: 12px 20px 0 20px;
+  margin: 0 20px 0 20px;
   background: #222;
   border-radius: 999px;
   overflow: visible;
