@@ -4,7 +4,7 @@ let SONGS_META = {};
 
 // For load the songs.json file
 async function loadMetaData() {
-  const response = await fetch("/assets/songs/songs.json");
+  const response = await fetch("./assets/songs/songs.json");
   SONGS_META = await response.json();
 }
 
@@ -50,22 +50,21 @@ function nextSong() {
   }
 }
 
-async function getSongs(folder) {
-  currFolder = folder;
-  const a = await fetch("http://127.0.0.1:5501/assets/songs")
-  const response = await a.text()
-  const div = document.createElement("div")
-  div.innerHTML = response
-  const anchors = div.getElementsByTagName("a")
-  const song_list = [];
-  for (let i = 0; i < anchors.length; i++) {
-    const href = anchors[i].href; // Full absolute URL
-    if(href.endsWith(".mp3")) {
-      const filename = href.split("/").pop();
-      song_list.push(filename);
+async function loadSongsFromJSON() {
+  const res = await fetch("./assets/data/songsData.json");
+  const data = await res.json();
+
+  // collect all tracks into a flat array
+  const allSongs = [];
+  Object.values(data).forEach(section => {
+    if (section.items) {
+      section.items.forEach(item => {
+        if (item.track) allSongs.push(item.track);
+      });
     }
-  }
-  return song_list
+  });
+
+  return allSongs;
 }
 
 function isSameTrack(trackFilename) {
@@ -136,7 +135,7 @@ function renderFooter(trackFilename) {
   const title = meta.title;
   const artists = meta.artists;
   const imageFile = meta.image;
-  const imageBase = "/assets/images/";
+  const imageBase = "./assets/images/";
   const imagePath =  imageBase + encodeURIComponent(imageFile);
 
   // Footer DOM
@@ -149,7 +148,7 @@ function renderFooter(trackFilename) {
     albumImage.src = imagePath;
     albumImage.onerror = () => {
       albumImage.onerror = null;
-      albumImage.src = "/assets/images/placeholder.jpg";
+      albumImage.src = "./assets/images/placeholder.jpg";
     };
   }
   // Update title
@@ -164,7 +163,7 @@ function renderFooter(trackFilename) {
 
 const playMusic = (trackFilename) => {
   if (!trackFilename) return;
-  const base = "/assets/songs/";
+  const base = "./assets/songs/";
   const safeFilename = trackFilename.replace(/^\/+/, "");
   // Set source properly
   currentSong.src = base + encodeURIComponent(safeFilename);
@@ -179,7 +178,7 @@ const playMusic = (trackFilename) => {
 function renderPlaylist(songArr) {
   const songUL = document.querySelector(".songList ul");
   songUL.innerHTML = "";
-  const imgBase = "/assets/images/";
+  const imgBase = "./assets/images/";
 
   for (const filename of songArr) {
     const displayName = decodeURIComponent(filename).replace(/\.[^/.]+$/, ""); // remove .mp3
@@ -190,7 +189,7 @@ function renderPlaylist(songArr) {
     songUL.innerHTML += `<li data-track="${filename}"> 
       <div class="song-cover">
         <img src="${imagePath}" alt=""
-        onerror="this.onerror=null;this.src='/assets/images/placeholder.jpg';" />
+        onerror="this.onerror=null;this.src='./assets/images/placeholder.jpg';" />
       </div>
       <div class="song-details">
         <div class="title">${displayName}</div>
@@ -272,9 +271,9 @@ function attachCardPlayButtons() {
 // Load the right section cards
 async function loadRightSectionCards() {
   const [songsRes, artistsRes, topSongsRes] = await Promise.all([
-    fetch('/assets/data/songsData.json'),
-    fetch('/assets/data/artistData.json'),
-    fetch('/assets/data/topSongsData.json')
+    fetch('./assets/data/songsData.json'),
+    fetch('./assets/data/artistData.json'),
+    fetch('./assets/data/topSongsData.json')
   ]);
 
   return {
@@ -301,7 +300,7 @@ function renderRightCards(section, data) {
 
     card.innerHTML = `
     <img src="${item.img}"
-      onerror="this.onerror=null;this.src='/assets/images/placeholder.jpg';" >
+      onerror="this.onerror=null;this.src='./assets/images/placeholder.jpg';" >
     <span class="text">${item.title || item.text}</span>
     ${item.text1 ? `<span class="text1"><p>${item.text1}</p></span>` : ""}
     `;
@@ -312,7 +311,7 @@ function renderRightCards(section, data) {
 
 async function main () {
   // Get the list of all songs
-  songs = await getSongs("Trending Song");
+  songs = await loadSongsFromJSON();
   renderPlaylist(songs);
   
   // Show all the songs in the playlist
