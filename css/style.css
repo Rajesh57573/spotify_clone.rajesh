@@ -655,18 +655,19 @@ body {
   right: 0;
   bottom: 0;
   z-index: 1001;
+  background: #000;
 }
 
 .album {
   display: flex;
   align-items: center;
   width: 30vw;
-  height: 100vh;
+  height: 100%;
   gap: 4px;
 }
 
 .album-img {
-  height: 100vh;
+  height: 100%;
   width: 80px;
   margin: 18px 0 0 16px;
 }
@@ -680,7 +681,7 @@ body {
 }
 
 .album-text {
-  height: 100vh;
+  height: 100%;
   width: 330px;
 }
 
@@ -709,7 +710,7 @@ body {
 }
 
 .album-icon {
-  height: 100vh;
+  height: 100%;
   width: 30px;
   margin-top: 40px;
   margin-right: 16px;
@@ -722,7 +723,7 @@ body {
 
 .playbar {
   width: 40vw;
-  height: 100vh;
+  height: 100%;
   margin-top: 15px;
 }
 
@@ -752,6 +753,7 @@ body {
 .songbar {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
   height: 50%;
   margin-top: 4px;
@@ -813,7 +815,7 @@ body {
 
 .control {
   width: 30vw;
-  height: 100vh;
+  height: 100%;
   margin-top: 24px;
 }
 
