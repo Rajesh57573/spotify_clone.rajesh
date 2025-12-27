@@ -138,13 +138,13 @@
     "title": "Bollywood Central",
     "items": [
       {
-        "track": "JAWAN_Chaleya.mp3",
-        "img": "./assets/images/JAWAN_Chaleya.jpg",
+        "track": "Jawan_Chaleya.mp3",
+        "img": "./assets/images/Jawan_Chaleya.jpg",
         "title": "Chaleya (From \"Jawan\")"
       },
       {
-        "track": "DEEWANIYAT.mp3",
-        "img": "./assets/images/DEEWANIYAT.jpg",
+        "track": "Deewaniyat.mp3",
+        "img": "./assets/images/Deewaniyat.jpg",
         "title": "Deewaniyat (From \"Ek Deewane Ki Deewaniyat\")"
       },
       {
