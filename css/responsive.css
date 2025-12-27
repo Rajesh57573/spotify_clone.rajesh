@@ -263,6 +263,8 @@
     padding: 0;
   }
 
+  .album-img  { margin: 8px 0 0 12px; }
+
   .album-icon i { display: none; }
 
   .control { width: 10vw; }
