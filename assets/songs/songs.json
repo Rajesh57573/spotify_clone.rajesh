@@ -1,0 +1,182 @@
+{
+  "Aaj-Ki-Raat.mp3": {
+    "title": "Aaj Ki Raat (From \"Stree 2\")",
+    "artists": ["Pritam,", "Arijit Singh,", "Nikhita Gandhi,", "Amitabh Bhattacharya"],
+    "image": "Aaj-Ki-Raat.jpg"
+  },
+  "Aavan_Jaavan.mp3": {
+    "title": "Aavan Jaavan (From \"WAR 2\")",
+    "artists": ["Sachin-Jigar,", "Madhubanti Bagchi,", "Divya Kumar,", "Amitabh Bhattacharya"],
+    "image": "Aavan_Jaavan.jpg"
+  },
+  "Aayi_Nai.mp3": {
+    "title": "Aayi Nai (From \"Stree 2\")",
+    "artists": ["Sachin-Jigar,", "Pawan Singh,", "Simran Choudhary,", "Divya Kumar,", "Amitabh Bhattacharya"],
+    "image": "Aayi_Nai.jpg"
+  },
+  "Apna_Bana_Le.mp3": {
+    "title": "Apna Bana Le",
+    "artists": ["Sachin-Jigar,", "Arijit Singh,", "Amitabh Bhattacharya"],
+    "image": "Apna_Bana_Le.jpg"
+  },
+  "Barbaad_Song.mp3": {
+    "title": "Barbaad (From \"Saiyaara\")",
+    "artists": ["The Rish,", "Jubin Nautiyal"],
+    "image": "Barbaad_Song.jpg"
+  },
+  "Besharam.mp3": {
+    "title": "Besharam Rang (From \"Pathaan\")",
+    "artists": ["Vishal-Shekhar,", "Shilpa Rao,", "Caralisa Monteiro,", "Vishal Dadlani,", "Shekhar Ravjiani,", "Kumaar"],
+    "image": "Besharam.jpg"
+  },
+  "Bheegi_Saree.mp3": {
+    "title": "Bheegi Saree - From \"Param Sundari\"",
+    "artists": ["Sachin-Jigar,", "Shreya Ghoshal,", "Adnan Sami,", "Amitabh Bhattacharya"],
+    "image": "Bheegi_Saree.jpg"
+  },
+  "Chuttamalle.mp3": {
+    "title": "Chuttamalle (From \"Devara Part 1\")",
+    "artists": ["Shilpa Rao,", "Anirudh Ravichander,", "Ramajogayya Sastry"],
+    "image": "Chuttamalle.jpg"
+  },
+  "Deewaniyat.mp3": {
+    "title": "Deewaniyat (From \"Ek Deewane Ki Deewaniyat\") (Original Motion Picture Soundtrack)",
+    "artists": ["Vishal Mishra,", "Kaushik-Guddu,", "Kunaal Vermaa"],
+    "image": "Deewaniyat.jpg"
+  },
+  "Dil_Tu_Jaan_Tu.mp3": {
+    "title": "Dil Tu Jaan Tu",
+    "artists": ["Gurnazar,", "Chet Singh"],
+    "image": "Dil_Tu_Jaan_Tu.jpg"
+  },
+  "Do_Patti_Raanjhan.mp3": {
+    "title": "Raanjhan (From \"Do Patti\")",
+    "artists": ["Sachet-Parampara,", "Parampara Tandon,", "Kausar Munir"],
+    "image": "Do_Patti_Raanjhan.jpg"
+  },
+  "Gallan_Goodiyaan.mp3": {
+    "title": "Gallan Goodiyaan",
+    "artists": ["Yashita Sharma,", "Manish Kumar Tipu,", "Farhan Akhtar,", "Shankar Mahadevan,", "Sukhwinder Singh"],
+    "image": "Gallan_Goodiyaan.jpg"
+  },
+  "Ghungroo.mp3": {
+    "title": "Ghungroo (From \"War\")",
+    "artists": ["Vishal-Shekhar,", "Arijit Singh,", "Shilpa Rao,", "Kumaar"],
+    "image": "Ghungroo.jpg"
+  },
+  "Haseen.mp3": {
+    "title": "Haseen",
+    "artists": ["Talwiinder,", "NDS,", "Rippy Grewal"],
+    "image": "Haseen.jpg"
+  },
+  "Humsafar.mp3": {
+    "title": "Humsafar (From \"Saiyaara\")",
+    "artists": ["Sachet-Parampara,", "Sachet Tandon,", "Parampara Tandon,", "Irshad Kamil,", "Prashant Pandey"],
+    "image": "Humsafar.jpg"
+  },
+  "Jaana_Samjho_Na.mp3": {
+    "title": "Jaana Samjho Na (From \"Bhool Bhulaiyaa 3\")",
+    "artists": ["Aditya Rikhari,", "Tulsi Kumar,", "Lijo George-Dj Chetas"],
+    "image": "Jaana_Samjho_Na.jpg"
+  },
+  "Janaab-e-Aali.mp3": {
+    "title": "Janaab-e-Aali (From \"WAR 2\")",
+    "artists": ["Pritam,", "Sachet Tandon,", "Saaj Bhatt,", "Amitabh Bhattacharya"],
+    "image": "Janaab-e-Aali.jpg"
+  },
+  "Jawan_Chaleya.mp3": {
+    "title": "Chaleya (From \"Jawan\")",
+    "artists": ["Anirudh Ravichander,", "Arijit Singh,", "Shilpa Rao,", "Kumaar"],
+    "image": "Jawan_Chaleya.jpg"
+  },
+  "Jhoom_Sharaabi.mp3": {
+    "title": "Jhoom Sharaabi (From \"De De Pyaar De 2\")",
+    "artists": ["Yo Yo Honey Singh,", "Athar Hayat,", "Sameer Hayat"],
+    "image": "Jhoom_Sharaabi.jpg"
+  },
+  "Kar_Gayi_Chull.mp3": {
+    "title": "Kar Gayi Chull",
+    "artists": ["Badshah,", "Amaal Mallik,", "Fazilpuria,", "Sukriti Kakar,", "Neha Kakkar"],
+    "image": "Kar_Gayi_Chull.jpg"
+  },
+  "LAAL_PARI.mp3": {
+    "title": "Laal Pari (From \"Housefull 5\")",
+    "artists": ["Yo Yo Honey Singh,", "Simar Kaur,", "Alfaaz"],
+    "image": "LAAL_PARI.jpg"
+  },
+  "London_Thumakda.mp3": {
+    "title": "London Thumakda",
+    "artists": ["Labh Janjua,", "Sonu Kakkar,", "Neha Kakkar"],
+    "image": "London_Thumakda(1).jpg"
+  },
+  "Mere_Mehboob.mp3": {
+    "title": "Mere Mehboob (From \"Vicky Vidya Ka Woh Wala Video \")",
+    "artists": ["Sachin-Jigar,", "Shilpa Rao,", "Sachet Tandon,", "Priya Saraiya"],
+    "image": "Mere_Mehboob.jpg"
+  },
+  "Midnight_Call.mp3": {
+    "title": "Midnight Call",
+    "artists": ["Harkirat Sangha,", "Starboy X"],
+    "image": "Midnight_Call.jpg"
+  },
+  "Millionaire.mp3": {
+    "title": "Millionaire",
+    "artists": ["Yo Yo Honey Singh"],
+    "image": "Millionaire.jpg"
+  },
+  "Monica.mp3": {
+    "title": "Monica (From \"Coolie\") (Tamil)",
+    "artists": ["Anirudh Ravichander,", "Sublahshini,", "Asal Kolaar,", "Vishnu Edavan"],
+    "image": "Monica.jpg"
+  },
+  "Pardesiya.mp3": {
+    "title": "Pardesiya - From \"Param Sundari\"",
+    "artists": ["Sachin-Jigar,", "Sonu Nigam,", "Krishnakali Saha,", "Amitabh Bhattacharya"],
+    "image": "Pardesiya.jpg"
+  },
+  "Raat_Bhar.mp3": {
+    "title": "Raat Bhar (From \"De De Pyaar De 2\")",
+    "artists": ["Aditya Rikhari,", "Payal Dev,", "Aditya Dev,", "Kumaar"],
+    "image": "Raat_Bhar.jpg"
+  },
+  "Sahiba.mp3": {
+    "title": "Sahiba",
+    "artists": ["Aditya Rikhari"],
+    "image": "Sahiba.jpg"
+  },
+  "Saiyaara.mp3": {
+    "title": "Saiyaara (From \"Saiyaara\")",
+    "artists": ["Tanishk Bagchi,", "Faheem Abdullah,", "Arslan Nizami,", "Irshad Kamil"],
+    "image": "Saiyaara.jpg"
+  },
+  "Tere_Ishk_Mein.mp3": {
+    "title": "Tere Ishk Mein (From \"Tere Ishk Mein\")",
+    "artists": ["A.R. Rahman,", "Arijit Singh,", "Irshad Kamil"],
+    "image": "Tere_Ishk_Mein.jpg"
+  },
+  "Tere_Pyaar_Mein.mp3": {
+    "title": "Tere Pyaar Mein",
+    "artists": ["Pritam,", "Arijit Singh,", "Amitabh Bhattacharya,", "Nikhita Gandhi"],
+    "image": "Tere_Pyaar_Mein(1).jpg"
+  },
+  "Tu_Meri_Main_Tera.mp3": {
+    "title": "Tu Meri Main Tera Main Tera Tu Meri - Title Track (From \"Tu Meri Main Tera Main Tera Tu Meri\")",
+    "artists": ["Vishal-Shekhar,", "Vishal Dadlani,", "Shekhar Ravjiani,", "Anvita Dutt"],
+    "image": "Tu_Meri_Main_Tera.jpg"
+  },
+  "Tum_Ho_Toh.mp3": {
+    "title": "Tum Ho Toh (From \"Saiyaara\")",
+    "artists": ["Vishal Mishra,", "Hansika Pareek,", "Raj Shekhar"],
+    "image": "Tum_Ho_Toh.jpg"
+  },
+  "Tum_Mere_Na_Huye.mp3": {
+    "title": "Tum Mere Na Huye - From “Thamma”",
+    "artists": ["Sachin-Jigar,", "Madhubanti Bagchi,", "Amitabh Bhattacharya"],
+    "image": "Tum_Mere_Na_Huye.jpg"
+  },
+  "Tumse_Behtar.mp3": {
+    "title": "Tumse Behtar (From \"Sunny Sanskari Ki Tulsi Kumari\")",
+    "artists": ["Arijit Singh,", "Tanishk Bagchi,", "Manoj Muntashir"],
+    "image": "Tumse_Behtar.jpg"
+  }
+}

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Spotify (Rajesh)</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="icon" href="./favicon_io/favicon.ico">
+    <link rel="apple-touch-icon" href="./favicon_io/apple-touch-icon.png">
+    <link rel="manifest" href="./favicon_io/site.webmanifest">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="nav-left">
+        <div class="logo">
+          <img class="invert" src="./assets/icons/logo.svg" width alt="logo">
+        </div>
+        <div class="icon">
+          <div class="home"><img class="invert" src="./assets/icons/home.svg" alt="home"></div>
+          <div class="search">
+            <img class="invert" src="./assets/icons/search.svg" alt="search">
+            <p>What do you want to play?</p>
+            <div class="searchbox">
+              <p> | </p>
+              <span><img class="invert" src="./assets/icons/browse.svg" alt=""></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="nav-right">
+        <div><button class="explore">Explore Premium</button></div>
+        <ul>
+          <li>
+            <img class="invert" src="./assets/icons/download.svg" alt="download">
+            <span>Install App</span>
+          </li>
+          <li><i class="fa-solid fa-bell"></i></li>
+        </ul>
+        <div id="usr">
+          <i class="fa-solid fa-user"></i>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="left">
+        <div class="library">
+          <div class="lib-heading">
+            <div class="lib-heading1">
+              <div class="lib-heading1-first">
+                <span><img class="invert lib-icon" src="./assets/icons/library.svg" alt=""></span>
+                <span><h2>Your Library</h2></span>
+              </div>
+              <div class="plus"><span><img class="invert" src="./assets/icons/plus.svg" alt="plus"></span></div>
+            </div>
+            <div class="lib-heading2"><span></span>Playlists</div>
+          </div>
+          <div class="songList">
+            <ul></ul>
+          </div>
+        </div>
+        <div class="footer-left">
+          <div class="footer-left-text">
+            <span>Legal</span>
+            <span>Privacy Center</span>
+            <span>Privacy Policy</span>
+            <span>Cookies</span>
+            <span>About Ads</span>
+            <span>Accessibility</span>
+          </div>
+        </div> 
+      </div>
+      <div class="right">
+        <div class="topIcons">
+          <div class="invert playlistIcon">
+            <img src="./assets/icons/playlist.svg" alt="">
+          </div>
+          <div class="icons">
+            <div class="icon1"><i class="fa-solid fa-angle-left"></i></div>
+            <div class="icon2"><i class="fa-solid fa-angle-right"></i></div>
+          </div>
+        </div>
+        <div class="trending">
+          <div class="trendingSong">
+            <h2 id="trendingTitle"></h2>
+            <h5>Show all</h5>
+          </div>
+          <div class="cardContainer" id="trendingCards"></div> 
+        </div>
+        <div class="today">
+          <div class="todaySongs trending">
+            <h2 id="todayTitle"></h2>
+            <h5>Show all</h5>
+          </div>
+          <div class="cardContainer" id="todayCards"></div>
+        </div>
+        <div class="recently">
+          <div class="recentlyPlayed trending">
+            <h2 id="recentTitle"></h2>
+            <h5>Show all</h5>
+          </div>
+          <div class="cardContainer" id="recentCards"></div>
+        </div>
+        <div class="bollywood">
+          <div class="bollywoodHits trending">
+            <h2 id="bollywoodTitle"></h2>
+            <h5>Show all</h5>
+          </div>
+          <div class="cardContainer" id="bollywoodCards"></div>
+        </div>
+        <div class="happy">
+          <div class="happyVibes trending">
+            <h2 id="happyTitle"></h2>
+            <h5>Show all</h5>
+          </div>
+          <div class="cardContainer" id="happyCards"></div>
+        </div>
+        <div class="artists">
+          <div class="popular trending">
+            <h2 id="artistTitle"></h2>
+            <h5>Show all</h5>
+          </div>
+          <div class="cardContainer" id="artistCards"></div>
+        </div>
+        <div class="charts">
+          <div class="features trending">
+            <h2 id="topSongsTitle"></h2>
+            <h5>Show all</h5>
+          </div>
+          <div class="cardContainer" id="topSongsCards"></div>
+        </div>
+        <div class="radio">
+          <div class="RadioSongs trending">
+            <h2 id="topRadioSongsTitle"></h2>
+            <h5>Show all</h5>
+          </div>
+          <div class="cardContainer" id="topRadioSongsCards"></div>
+        </div>
+        <div class="footer-right">
+          <div class="footer-right1">
+            <div class="footer-right-text" id="footer-text-1">
+              <span>Company</span>
+              <ul>
+                <li>About</li>
+                <li>Jobs</li>
+                <li>For the Record</li>
+              </ul>
+            </div>
+            <div class="footer-right-text" id="footer-text-2">
+              <span>Communities</span>
+              <ul>
+                <li>For Artists</li>
+                <li>Developers</li>
+                <li>Advertising</li>
+                <li>Investors</li>
+                <li>Vendors</li>
+              </ul>
+            </div>
+            <div class="footer-right-text" id="footer-text-3">
+              <span>Useful links</span>
+              <ul>
+                <li>Support</li>
+                <li>Free Mobile App</li>
+                <li>Popular by Country</li>
+                <li>Import your music</li>
+              </ul>
+            </div>
+            <div class="footer-right-text" id="footer-text-4">
+              <span>Spotify Plans</span>
+              <ul>
+                <li>Premium Lite</li>
+                <li>Premium Standard</li>
+                <li>Premium Platinum</li>
+                <li>Premium Student</li>
+                <li>Spotify Free</li>
+              </ul>
+            </div>
+            <div class="footer-icons">
+              <div class="footerIcon"><i class="fa-brands fa-instagram"></i></div>
+              <div class="footerIcon"><i class="fa-brands fa-twitter"></i></div>
+              <div class="footerIcon"><i class="fa-brands fa-facebook"></i></div>
+            </div>
+          </div>
+          <div class="footer-right2">
+            <span>This is a clone of the Spotify web player. Go to the main <a href="https://open.spotify.com/">Spotify website</a> for the real experience.</span>
+            <span>Copyright &copy; 2025 by Rajesh | All rights reserved</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="music-player">
+      <div class="album">
+        <div class="album-img">
+          <img src="./assets/images/Aaj-Ki-Raat.jpg" alt="">
+        </div>
+        <div class="album-text">
+          <div class="songName"><span>Aaj Ki Raat (From "Stree 2")</span></div>
+          <div class="artistName">
+            <span>Pritam,</span>
+            <span>Arijit Singh,</span>
+            <span>Nikhita Gandhi,</span>
+            <span>Amitabh Bhattacharya</span>
+          </div>
+        </div>
+        <div class="album-icon">
+          <span><i class="fa-solid fa-heart"></i></span>
+        </div>
+      </div>
+      <div class="playbar">
+        <div class="iconbar">
+          <i class="fa-solid fa-shuffle"></i>
+          <i id="previous" class="fa-solid fa-backward-step"></i>
+          <i id="play" class="fa-solid fa-circle-play"></i>
+          <i id="next" class="fa-solid fa-forward-step"></i>
+          <i class="fa-solid fa-repeat"></i>
+        </div>
+        <div class="songbar">
+          <span class="start">00:00</span>
+          <div class="seekbar">
+            <div class="circle"></div>
+          </div>
+          <span class="end">00:00</span>
+        </div>
+      </div>
+      <div class="control">
+        <div class="control-icons">
+          <img class="invert" src="./assets/icons/control01.svg" alt="">
+          <img class="invert" src="./assets/icons/control02.svg" alt="">
+          <img class="invert" src="./assets/icons/control03.svg" alt="">
+          <img class="invert" src="./assets/icons/control04.svg" alt="">
+          <div class="volume">
+            <img class="invert" src="./assets/icons/control05.svg" alt="">
+            <div class="range">
+              <input type="range" id="vol-range" aria-label="Volume">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

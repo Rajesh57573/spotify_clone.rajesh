@@ -1,0 +1,212 @@
+{
+  "trendingSongs": {
+    "title": "Trending songs",
+    "items": [
+      {    
+        "track": "Pardesiya.mp3",
+        "img": "./assets/images/Pardesiya.jpg",
+        "title": "Pardesiya - From \"Param Sundari\""
+      },
+      {
+        "track": "Barbaad_Song.mp3",
+        "img": "./assets/images/Barbaad_Song.jpg",
+        "title": "Barbaad (From \"Saiyaara\")"
+      },
+      {
+        "track": "Tu_Meri_Main_Tera.mp3",
+        "img": "./assets/images/Tu_Meri_Main_Tera.jpg",
+        "title": "Tu Meri Main Tera Main Tera Tu Meri - Title Track"
+      },
+      {
+        "track": "Tum_Mere_Na_Huye.mp3",
+        "img": "./assets/images/Tum_Mere_Na_Huye.jpg",
+        "title": "Tum Mere Na Huye - From “Thamma”"
+      },
+      {
+        "track": "Tumse_Behtar.mp3",
+        "img": "./assets/images/Tumse_Behtar.jpg",
+        "title": "Tumse Behtar (From \"Sunny Sanskari Ki Tulsi Kumari\")"
+      },
+      {
+        "track": "Millionaire.mp3",
+        "img": "./assets/images/Millionaire.jpg",
+        "title": "Millionaire"
+      },
+      {
+        "track": "Dil_Tu_Jaan_Tu.mp3",
+        "img": "./assets/images/Dil_Tu_Jaan_Tu.jpg",
+        "title": "Dil Tu Jaan Tu"
+      },
+      {
+        "track": "Do_Patti_Raanjhan.mp3",
+        "img": "./assets/images/Do_Patti_Raanjhan.jpg",
+        "title": "Raanjhan (From \"Do Patti\")"
+      },
+      {
+        "track": "Humsafar.mp3",
+        "img": "./assets/images/Humsafar.jpg",
+        "title": "Humsafar (From \"Saiyaara\")"
+      },
+      {
+        "track": "Apna_Bana_Le.mp3",
+        "img": "./assets/images/Apna_Bana_Le.jpg",
+        "title": "Apna Bana Le"
+      },
+      {
+        "track": "Tum_Ho_Toh.mp3",
+        "img": "./assets/images/Tum_Ho_Toh.jpg",
+        "title": "Tum Ho Toh (From \"Saiyaara\")"
+      }
+    ]  
+  },
+  "todaySongs": {
+    "title": "Today's biggest hits",
+    "items": [
+      {
+        "track": "Sahiba.mp3",
+        "img": "./assets/images/Sahiba.jpg",
+        "title": "Sahiba"
+      },
+      {
+        "track": "Tere_Ishk_Mein.mp3",
+        "img": "./assets/images/Tere_Ishk_Mein.jpg",
+        "title": "Tere Ishk Mein (From \"Tere Ishk Mein\")"
+      },
+      {
+        "track": "Haseen.mp3",
+        "img": "./assets/images/Haseen.jpg",
+        "title": "Haseen"
+      },
+      {
+        "track": "Raat_Bhar.mp3",
+        "img": "./assets/images/Raat_Bhar.jpg",
+        "title": "Raat Bhar (From \"De De Pyaar De 2\")"
+      },
+      {
+        "track": "Saiyaara.mp3",
+        "img": "./assets/images/Saiyaara.jpg",
+        "title": "Saiyaara (From \"Saiyaara\")"
+      },
+      {
+        "track": "Aaj-Ki-Raat.mp3",
+        "img": "./assets/images/Aaj-Ki-Raat.jpg",
+        "title": "Aaj Ki Raat (From \"Stree 2\")"
+      },
+      {
+        "track": "Aayi_Nai.mp3",
+        "img": "./assets/images/Aayi_Nai.jpg",
+        "title": "Aayi Nai (From \"Stree 2\")"
+      },
+      {
+        "track": "Midnight_Call.mp3",
+        "img": "./assets/images/Midnight_Call.jpg",
+        "title": "Midnight Call"
+      }
+    ]
+  },
+  "recentlyPlayed": {
+    "title": "Recently played",
+    "items": [
+      {
+        "track": "Pardesiya.mp3",
+        "img": "./assets/images/Pardesiya.jpg",
+        "title": "Pardesiya - From \"Param Sundari\""
+      },
+      {
+        "track": "Aavan_Jaavan.mp3",
+        "img": "./assets/images/Aavan_Jaavan.jpg",
+        "title": "Aavan Jaavan (From \"WAR 2\")"
+      },
+      {
+        "track": "Bheegi_Saree.mp3",
+        "img": "./assets/images/Bheegi_Saree.jpg",
+        "title": "Bheegi Saree - From \"Param Sundari\""
+      },
+      {
+        "track": "Besharam.mp3",
+        "img": "./assets/images/Besharam.jpg",
+        "title": "Besharam Rang (From \"Pathaan\")"
+      },
+      {
+        "track": "Chuttamalle.mp3",
+        "img": "./assets/images/Chuttamalle.jpg",
+        "title": "Chuttamalle (From \"Devara Part 1\")"
+      }
+    ]
+  },
+  "bollywoodSongs": {
+    "title": "Bollywood Central",
+    "items": [
+      {
+        "track": "JAWAN_Chaleya.mp3",
+        "img": "./assets/images/JAWAN_Chaleya.jpg",
+        "title": "Chaleya (From \"Jawan\")"
+      },
+      {
+        "track": "DEEWANIYAT.mp3",
+        "img": "./assets/images/DEEWANIYAT.jpg",
+        "title": "Deewaniyat (From \"Ek Deewane Ki Deewaniyat\")"
+      },
+      {
+        "track": "Mere_Mehboob.mp3",
+        "img": "./assets/images/Mere_Mehboob.jpg",
+        "title": "Mere Mehboob (From \"Vicky Vidya Ka Woh Wala Video\")"
+      },
+      {
+        "track": "Jhoom_Sharaabi.mp3",
+        "img": "./assets/images/Jhoom_Sharaabi.jpg",
+        "title": "Jhoom Sharaabi (From \"De De Pyaar De 2\")"
+      },
+      {
+        "track": "Janaab-e-Aali.mp3",
+        "img": "./assets/images/Janaab-e-Aali.jpg",
+        "title": "Janaab-e-Aali (From \"WAR 2\")"
+      },
+      {
+        "track": "Jaana_Samjho_Na.mp3",
+        "img": "./assets/images/Jaana_Samjho_Na.jpg",
+        "title": "Jaana Samjho Na (From \"Bhool Bhulaiyaa 3\")"
+      },
+      {
+        "track": "LAAL_PARI.mp3",
+        "img": "./assets/images/LAAL_PARI.jpg",
+        "title": "Laal Pari (From \"Housefull 5\")"
+      },
+      {
+        "track": "Ghungroo.mp3",
+        "img": "./assets/images/Ghungroo.jpg",
+        "title": "Ghungroo (From \"War\")"
+      }
+    ]
+  },
+  "happyVibes": {
+    "title": "Happy vibes",
+    "items": [
+      {
+        "track": "Kar_Gayi_Chull.mp3",
+        "img": "./assets/images/Kar_Gayi_Chull.jpg",
+        "title": "Kar Gayi Chull (From \"Kapoor & Sons\")"
+      },
+      {
+        "track": "Tere_Pyaar_Mein.mp3",
+        "img": "./assets/images/Tere_Pyaar_Mein.jpg",
+        "title": "Happy Vibes"
+      },
+      {
+        "track": "Monica.mp3",
+        "img": "./assets/images/Monica(1).jpg",
+        "title": "Happy Vibes Tamil"
+      },
+      {
+        "track": "Gallan_Goodiyaan.mp3",
+        "img": "./assets/images/Gallan_Goodiyaan.jpg",
+        "title": "Gallan Goodiyaan"
+      },
+      {
+        "track": "London_Thumakda.mp3",
+        "img": "./assets/images/London_Thumakda.jpg",
+        "title": "Sangeet Night"
+      }
+    ]
+  }
+}

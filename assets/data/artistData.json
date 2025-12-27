@@ -1,0 +1,72 @@
+{
+  "Artists": {
+    "title": "Popular Artists",
+    "items": [
+      {
+        "img": "./assets/images/artists/01.jpg",
+        "text": "Pritam",
+        "text1": "Artist"
+      },
+      {
+        "img": "./assets/images/artists/02.jpg",
+        "text": "A.R. Rahman",
+        "text1": "Artist"
+      },
+      {
+        "img": "./assets/images/artists/03.jpg",
+        "text": "Arijit Singh",
+        "text1": "Artist"
+      },
+      {
+        "img": "./assets/images/artists/04.jpg",
+        "text": "Sachin-Jigar",
+        "text1": "Artist"
+      },
+      {
+        "img": "./assets/images/artists/05.jpg",
+        "text": "Yo Yo Honey Singh",
+        "text1": "Artist"
+      },
+      {
+        "img": "./assets/images/artists/06.jpg",
+        "text": "Vishal-Shekhar",
+        "text1": "Artist"
+      },
+      {
+        "img": "./assets/images/artists/07.jpg",
+        "text": "Shreya Ghoshal",
+        "text1": "Artist"
+      },
+      {
+        "img": "./assets/images/artists/08.jpg",
+        "text": "Jasleen Royal",
+        "text1": "Artist"
+      },
+      {
+        "img": "./assets/images/artists/09.jpg",
+        "text": "Atif Aslam",
+        "text1": "Artist"
+      },
+      {
+        "img": "./assets/images/artists/10.jpg",
+        "text": "Anirudh Ravichander",
+        "text1": "Artist"
+      },
+      {
+        "img": "./assets/images/artists/11.jpg",
+        "text": "Alka Yagnik",
+        "text1": "Artist"
+      },
+      {
+        "img": "./assets/images/artists/12.jpg",
+        "text": "Badshah",
+        "text1": "Artist"
+      },
+      {
+        "img": "./assets/images/artists/13.jpg",
+        "text": "Sachet-Parampara",
+        "text1": "Artist"
+      }
+    ]
+  }
+}

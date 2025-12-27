@@ -1,0 +1,72 @@
+{
+  "TopSongs": {
+    "title": "Featured Charts",
+    "items": [
+      {
+        "img": "./assets/images/topSongs/01.jpg",
+        "text": "Your weekly update of the most played tracks right...."
+      },
+      {
+        "img": "./assets/images/topSongs/02.jpg",
+        "text": "Your weekly update of the most played tracks right...."
+      },
+      {
+        "img": "./assets/images/topSongs/03.jpg",
+        "text": "Your daily update of the most played tracks right...."
+      },
+      {
+        "img": "./assets/images/topSongs/04.jpg",
+        "text": "Your daily update of the most played tracks right...."
+      },
+      {
+        "img": "./assets/images/topSongs/05.jpg",
+        "text": "Your daily update of the most viral tracks right...."
+      },
+      {
+        "img": "./assets/images/topSongs/06.jpg",
+        "text": "Your daily update of the most viral tracks right...."
+      }
+    ]
+  },
+  "TopRadioSongs": {
+    "title": "Popular radio",
+    "items": [
+      {
+        "img": "./assets/images/popular/01.jpg",
+        "text": "With Sachin-Jigar, Jeet Gannguli, Atif Aslam an..."
+      },
+      {
+        "img": "./assets/images/popular/02.jpg",
+        "text": "With Pritam, Shankar-Ehsaan-Loy, Vishal-..."
+      },
+      {
+        "img": "./assets/images/popular/03.jpg",
+        "text": "With A.R. Rahman, Arijit Singh, Atif Aslam and more"
+      },
+      {
+        "img": "./assets/images/popular/04.jpg",
+        "text": "With Vinod Rathod, Kumar Sanu, Udit Narayan an..."
+      },
+      {
+        "img": "./assets/images/popular/05.jpg",
+        "text": "With Chinmayi, Hariharan, Unnikrishnan and more"
+      },
+      {
+        "img": "./assets/images/popular/06.jpg",
+        "text": "With Guru Randhawa, Pritam, Badshah and more"
+      },
+      {
+        "img": "./assets/images/popular/07.jpg",
+        "text": "With Shubh, Prem Dhillon, AP Dhillon and more"
+      },
+      {
+        "img": "./assets/images/popular/08.jpg",
+        "text": "With Mukesh, Tabassum, Hemant Kumar and more"
+      },
+      {
+        "img": "./assets/images/popular/09.jpg",
+        "text": "With Asha Bhosle, Jatin-Lalit, Vinod Rathod and more"
+      }
+    ]
+  }
+}
